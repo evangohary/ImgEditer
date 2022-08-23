@@ -4,7 +4,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import os
 
 path = './img'
-pathOut = '/editedImg'
+pathOut = './ImgEditer'
 
 for filename in os.listdir(path): # opens images in folder
    img = Image.open(f"{path}/{filename}")
